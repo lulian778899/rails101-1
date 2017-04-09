@@ -13,6 +13,7 @@ def show
   @posts = @group.posts
 end
 
+
 def new
   @group = Group.new
  end
